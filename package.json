@@ -1,0 +1,25 @@
+{
+  "name": "document",
+  "version": "1.0.0",
+  "description": "go",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "sh": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/json1204/document.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/json1204/document/issues"
+  },
+  "homepage": "https://github.com/json1204/document#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
