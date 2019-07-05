@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: ./img/logo.jpg
 actionText: 快速上手 →
 actionLink: /components/introduction/
 features:

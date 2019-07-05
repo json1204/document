@@ -3,9 +3,10 @@ let fs =require('fs')
 module.exports = {
   base:'/document/',
   title: 'ieast docs',
-  description: 'Welcome to my docs',
+  description: 'Welcome to ieast docs',
   themeConfig: {
-    sidebarDepth:3,
+    lastUpdated: '上次更新时间',
+    sidebarDepth:1,
     displayAllHeaders: false,
     sidebar: {
       '/black/': [
@@ -64,7 +65,8 @@ module.exports = {
       { text: '阅读', link: '/read/introduction' },
       { text: 'Github', link: 'https://github.com/json1204' },
     ]
-  }
+  },
+  sass: { indentedSyntax: true }
 }
 
 function getSidebarconfig(dir,hasSub) {
