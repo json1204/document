@@ -1,6 +1,7 @@
 let path = require('path')
 let fs =require('fs')
 module.exports = {
+  base:'/document/',
   title: 'ieast docs',
   description: 'Welcome to my docs',
   themeConfig: {
