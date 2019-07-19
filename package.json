@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/json1204/document#readme",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "vuepress": "^1.0.2"
