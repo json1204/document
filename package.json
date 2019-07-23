@@ -24,5 +24,8 @@
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "vuepress": "^1.0.2"
+  },
+  "dependencies": {
+    "liu-ui": "^2.0.2"
   }
 }
